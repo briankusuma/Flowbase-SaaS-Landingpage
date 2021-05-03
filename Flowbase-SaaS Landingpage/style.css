@@ -1,0 +1,520 @@
+/* global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1440px;
+    height: 3550px;
+    background-color: #FFFFFF;
+}
+
+p {
+    font-family: Mulish;
+}
+
+h1 {
+    font-family: DM Sans;
+}
+
+/* end of global */
+
+/* flowbase-header-nav */
+
+nav {
+    display: flex;
+    margin-left: 184px;
+    margin-top: 30px;
+    width: 1070px;
+    height: 60px;
+}
+
+.logo-nav {
+    width: 200px;
+    height: 41px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav-item {
+    padding-left: 173px;
+    padding-right: 110px;
+}
+
+ul {
+    display: flex; <h1>this footer</h1>
+    list-style-type: none;
+    margin-top: 14px;
+}
+
+li {
+    padding-right: 49px;
+    list-style: none;
+}
+
+.home, .feature, .pricing, .blog {
+    text-decoration: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    display: inline-block;
+    height: 36px;
+    border-bottom: 2px solid transparent;
+}
+
+.home:hover, .feature:hover, .pricing:hover, .blog:hover {
+    color: black;
+    cursor: pointer;
+    border-bottom: 2px solid #5454D4;
+}
+
+.btn-GS-nav {
+    width: 211px;
+    height: 60px;
+    background-color: #FF7143;
+    border: none;
+    border-radius: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+}
+
+.btn-GS-nav:hover {
+    color: black;
+    background-color: #5454D4;
+}
+
+/* end of flowbase-header-nav */
+
+/* flowbase-header-hero */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 1005px;
+    background-color: #FFFFFF;
+}
+
+.banner-container {
+    display: flex;
+    padding-top: 190px;
+    margin-left: 184px;
+}
+
+.banner-n-button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 92px;
+    width: 459px;
+    height: 461px;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-tittle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+}
+
+.text-intro {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-top: 30px;
+}
+
+.banner-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.btn-GS {
+    margin-right: 40px;
+    Width: 211px;
+    Height: 61px;
+    border-radius: 10px;
+    border-style: none;
+    background: #5454D4;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+}
+
+.btn-arw {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-color: grey;
+    background-color: #FFFFFF;
+}
+
+.banner-img {
+    margin-left: 166px;
+    width: 580px;
+    height: 644px;
+}
+
+#table {
+    position: absolute;
+    z-index: 0;
+    padding-left: 77px;
+    padding-top: 93px;
+}
+
+#skate {
+    position: absolute;
+    z-index: 1;
+}
+
+#bubble-chat {
+    position: absolute;
+    z-index: 2;
+    margin-left: 381px;
+    margin-top: 421px;
+}
+
+.banner-brand {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 186.47px;
+}
+
+.logo-brand-container {
+    display: flex;
+    height: 47.65px;
+}
+
+#logo-brand1, #logo-brand2, #logo-brand3, #logo-brand4, #logo-brand5 {
+    width: 118.78px;
+    height: 27.12px;
+    margin-right: 120px;
+}
+
+/* end of flowbase-header-hero */
+
+/* main */
+
+/* main-img-1 */
+
+.img-1-container {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 184px;
+}
+
+.img-1 {
+    display: flex;
+    height: 473px;
+}
+
+#chart_9 {
+    float: left;
+    margin-top: 95px;
+    padding-right: 6px;
+}
+
+.img-1-intro-container {
+    display: flex;
+    width: 556px;
+    height: 229px;
+    padding-left: 165px;
+    padding-top: 122px;
+}
+
+.img-1-intro-item {
+    margin-right: -116px;
+}
+
+.img-1-intro {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+    margin-bottom: 30px;
+}
+
+.img-1-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin-bottom: 30px;
+}
+
+#LM {
+    text-decoration: none;
+    font-family: DM sans;
+}
+
+#LM:hover {
+    color: #FF7143;
+}
+
+/* end of main-img-1 */
+
+/* main-img-2 */
+
+.img-2-container {
+    display: flex;
+    margin-top: 150px;
+    margin-right: 291px;
+}
+
+.img-2 {
+    display: flex;
+    height: 473px;
+    padding-left: 200px;
+}
+
+#pose_4 {
+    position: absolute;
+    z-index: 1;
+}
+
+#chart_7 {
+    position: absolute;
+    z-index: 0;
+    padding-left: 130px;
+    padding-top: 38px;
+}
+
+/* end of main-img-2 */
+
+/* feature-icon */
+.feature-icon-container{
+    display: flex;
+
+height: 208px;
+margin-top: 138px;
+}
+
+.feature-icon{
+    display: grid;
+    margin-left: 166px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 74px;
+}
+
+.benchmarks,
+.pricing-audit,
+.retention-audit
+{
+    align-items: center;
+display: flex;
+flex-direction: column;
+}
+
+#icon-icon{
+    margin-bottom: 7px;
+    width: 151px;
+height: 97px;
+}
+
+.icon-tittle{
+    margin-bottom: 20px;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+letter-spacing: -0.750316px;
+
+color: #19191B;
+}
+
+.icon-intro{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.500211px;
+color: #696871;
+}
+/* end of feature-icon */
+/* paid-month */
+.containers{
+    margin-top: 150px;
+    
+}
+
+.paid-month-containers{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+}
+
+.paid-month-item{
+    display: flex;
+    justify-content: center;
+}
+
+.paid-button-containers{
+    display: grid;
+    justify-content: center;
+    margin-top: 98px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 18px;
+    
+}
+
+.paid-month-tittle{
+    height: 140px;
+    width: 600px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 70px;
+letter-spacing: -1.87579px;
+
+color: #19191B;
+margin-right: 242px;
+text-decoration: none;
+}
+
+.btn-yearly{
+ width: 160px;
+ height: 55px;
+background: #5454D4;
+border-radius: 10px 0px 0px 10px;
+border-style: none;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+font-family: DM sans;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.500211px;
+margin-top: 48px;
+color: #FFFFFF;
+}
+
+.btn-monthly{
+    width: 160px;
+    height: 55px;
+    border-style: none;
+background: #F7F7FB;
+   border-radius: 0px 10px 10px 0px;
+   font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+font-family: DM sans;
+
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.500211px;
+
+color: #19191B;
+margin-top: 48px;
+}
+
+.paid-starter{
+    height: 441px;
+    width: 330px;
+    background: #F8F8F8;
+border-radius: 10px;
+align-items: center;
+display: grid;
+justify-content: center;
+color: #696871;
+text-align: center;
+transition: width 1s, height 1s;
+}
+
+.paid-starter:hover{
+    width: 376px;
+    height: 473px;
+    background-color:#FF7143;
+    color: #F7F7FB;
+}
+
+#free{
+    color: #19191B;
+    font-size: 60px;
+}
+
+.text-price{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+h6{
+    font-size: 28px;
+    line-height: 56px;
+    color: #19191B;
+}
+
+.paid-btn{
+    Width: 305px;
+Height: 60px;
+border-radius: 10px;
+border-style: none;
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.531474px;
+
+color: #5454D4;
+}
+
+.paid-btn:hover{
+    color: #19191B;
+    background-color: #9F3919;
+}
+
+.footer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #5454D4;
+    margin-top: 50px;
+}
+
+.footer-item{
+    align-content: center;
+display: flex;
+margin-left: 650px;
+}
+/* end of paid-month */
+/* end of main */
