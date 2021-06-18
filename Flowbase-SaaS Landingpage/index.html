@@ -9,15 +9,15 @@
   </head>
   <body>
     <!-- flowbase header -->
-    <header>
+    <header class="page-header">
       <!-- nav -->
       <nav>
         <img class="logo-nav" src="Logo/Logo Color.svg" alt="logo" href="#" />
         <div class="nav-item">
           <ul>
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#" class="feature">Feature</a></li>
-            <li><a href="#" class="pricing">Pricing</a></li>
+            <li><a href="#home" onclick="home()" class="home">Home</a></li>
+            <li><a href="#feature" onclick="feature()" class="feature">Feature</a></li>
+            <li><a href="#pricing" onclick="pricing()" class="pricing">Pricing</a></li>
             <li><a href="#" class="blog">Blog</a></li>
           </ul>
         </div>
@@ -31,7 +31,7 @@
     <div class="hero">
       <div class="banner-container">
 
-        <div class="banner-n-button">
+        <div class="banner-n-button" id="home">
           <div class="banner-text">
             <h1 class="text-tittle">Grow your subscription business</h1>
             <p class="text-intro">
@@ -76,7 +76,7 @@
     </header>
     <!-- end of flowbase header -->
     <!-- flowbase main -->
-    <main>
+    <main id="feature">
       <!-- image 1 -->
       <div class="img-1-container">
         <div class="img-1">
@@ -159,7 +159,7 @@
       <!-- end of feature icon -->
 
       <!-- paid month -->
-    <div class="containers">
+    <div class="containers" id="pricing">
       <div class="paid-month-containers">
         <div class="paid-month-item">
           <h1 class="paid-month-tittle">Get the right plan for future product.</h1>
