@@ -43,7 +43,7 @@ let img1 = gsap
       start: "top 50%",
       end: "bottom top",
       toggleActions: "restart complete reverse reset",
-      markers: true,
+     
     },
   })
   .from("#pose_11", {
@@ -71,7 +71,7 @@ let img2 = gsap
       start: "top 50%",
       end: "bottom top",
       toggleActions: "restart complete reverse reset",
-      markers: true,
+      
     },
   })
   .from("#pose_4", {
@@ -98,7 +98,7 @@ let featureIcon = gsap
       start: "top 50%",
       end: "bottom top",
       toggleActions: "restart complete reverse reset",
-      markers: true,
+     
     },
   })
 
@@ -141,7 +141,7 @@ let paid = gsap.timeline({
     start: "top 50%",
     end: "bottom top",
     toggleActions: "restart complete reverse reset",
-    markers: true,
+    
   },
 });
 
