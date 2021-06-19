@@ -25,6 +25,7 @@ h1 {
 /* flowbase-header-nav */
 
 nav {
+    
     display: flex;
     margin-left: 184px;
     margin-top: 30px;
@@ -175,7 +176,16 @@ li {
     border-color: grey;
     background-color: #FFFFFF;
 }
-
+.btn-arw-fix {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border-color: grey;
+    background-color: #FFFFFF;
+    margin-top: 300px;
+    margin-left: 1200px;
+}
 .banner-img {
     margin-left: 166px;
     width: 580px;
@@ -241,7 +251,7 @@ li {
     padding-right: 6px;
 }
 
-.img-1-intro-container {
+.img-1-intro-container, .img-2-intro-container {
     display: flex;
     width: 556px;
     height: 229px;
@@ -249,11 +259,11 @@ li {
     padding-top: 122px;
 }
 
-.img-1-intro-item {
+.img-1-intro-item, .img-2-intro-item{
     margin-right: -116px;
 }
 
-.img-1-intro {
+.img-1-intro, .img-2-intro  {
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -263,7 +273,7 @@ li {
     margin-bottom: 30px;
 }
 
-.img-1-text {
+.img-1-text, .img-2-text  {
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -273,12 +283,12 @@ li {
     margin-bottom: 30px;
 }
 
-#LM {
+#LM, #LM2{
     text-decoration: none;
     font-family: DM sans;
 }
 
-#LM:hover {
+#LM:hover, #LM2:hover {
     color: #FF7143;
 }
 
