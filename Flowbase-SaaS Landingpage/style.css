@@ -7,8 +7,6 @@
 }
 
 body {
-    width: 1440px;
-    height: 3550px;
     background-color: #FFFFFF;
 }
 
@@ -19,18 +17,28 @@ p {
 h1 {
     font-family: DM Sans;
 }
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* end of global */
 
 /* flowbase-header-nav */
 
 nav {
-    
     display: flex;
-    margin-left: 184px;
-    margin-top: 30px;
-    width: 1070px;
+    width: 100%;
+    justify-content: center;
     height: 60px;
+    padding-top: 20px;
 }
 
 .logo-nav {
@@ -101,17 +109,17 @@ li {
 
 /* flowbase-header-hero */
 
-.hero {
+.hero{
     display: flex;
     flex-direction: column;
-    height: 1005px;
-    background-color: #FFFFFF;
+    justify-content: center;
 }
 
 .banner-container {
     display: flex;
     padding-top: 190px;
-    margin-left: 184px;
+    max-width: 1280px;
+
 }
 
 .banner-n-button {
@@ -213,8 +221,9 @@ li {
 
 .banner-brand {
     display: flex;
-    margin-top: 180px;
-    margin-left: 186.47px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-brand-container {
